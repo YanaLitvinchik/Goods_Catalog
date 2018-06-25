@@ -85,7 +85,7 @@
                 XPath=product}">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="Категория"
+                        <GridViewColumn  Header="Категория"   
                                         DisplayMemberBinding="{Binding XPath=@category}"/>
                         <GridViewColumn Header="Наименование"
                                         DisplayMemberBinding="{Binding XPath=@name}"/>
